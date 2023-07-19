@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8" />
     <title>My First basic HTML file</title>
+        <style>
+        table, th, td {
+            border: solid black 1px;
+            border-collapse: collapse;
+        }
+        .twitter-tweet {
+          margin: auto;
+          width: 60%;
+          border: 3px solid #1a0175b2;
+          padding: 10px;
+        }
+        </style>
 </head>
 <body>
 	<!-- Content for the header section -->
@@ -33,6 +45,39 @@
 	<aside>
 		<p>placeholder to add comment thread later</p>
 	</aside>
+	    <article class="twitter-tweet">
+        <table class="twitter-tweet">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Emily</td>
+                    <td>28</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>Michael</td>
+                    <td>32</td>
+                    <td>Australia</td>
+                </tr>
+                <tr>
+                    <td>Sophia</td>
+                    <td>21</td>
+                    <td>UK</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
 	</main>
 	<br><br><br><br>
 	 <!-- Content for the footer section -->
