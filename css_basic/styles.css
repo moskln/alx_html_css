@@ -1,0 +1,108 @@
+body, main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+}
+main {
+    flex-direction: column;
+
+}
+main {
+    flex: auto;
+}
+article {
+    flex: 2;
+}
+aside {
+    flex: 1;
+}    
+article, aside {
+    overflow-y: auto;
+}
+.section1 section {
+    display: flex;
+}
+/*my style*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .works_on_smartphone {
+    size-adjust: 100%;
+    /* Add any specific styles for smartphone here */
+  }
+
+  header {
+    background-color: #e5ecec;
+    padding: 5px;
+  }
+
+  .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header2 img {
+    max-height: 45px;
+    align-items: center;
+  }
+
+  .header3 a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  /* Adjust styles for the video sections */
+  .author-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  /* Add more specific styles as needed */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
