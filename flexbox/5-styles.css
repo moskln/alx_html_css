@@ -248,6 +248,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .header {
     padding: var(--header-padding);
